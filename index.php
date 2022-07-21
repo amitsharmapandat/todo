@@ -1,4 +1,5 @@
 <?php
+//mysqli_connect('host','username','password','database name');
 $db = mysqli_connect('localhost','root','','todo');
 
 if(isset($_GET['delete'])){
